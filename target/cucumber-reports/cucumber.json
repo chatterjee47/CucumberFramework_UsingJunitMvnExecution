@@ -1,0 +1,1365 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 470100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WrongdataprovisionOnPracticeFormTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 231200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DateCalculationTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 353000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 986600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VerifyAlertButtonTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 308000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VerifyHoveringOverTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 310200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ModalDialogsTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 366700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DragandDropTest.Configuration()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Wrong data provision On Practice Form",
+        "description": "",
+        "id": "verifying-features-for-demoqa.com;wrong-data-provision-on-practice-form;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20872955700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I go to the Practice Form page",
+            "match": {
+              "location": "WrongdataprovisionOnPracticeFormTest.i_go_to_the_Practice_Form_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3220946900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I type in Name as a numeric value \"796543\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "796543",
+                  "offset": 35
+                }
+              ],
+              "location": "WrongdataprovisionOnPracticeFormTest.i_type_in_Name_as_a_numeric_value(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3139280400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I type in Last Name \"Chatterjee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chatterjee",
+                  "offset": 21
+                }
+              ],
+              "location": "WrongdataprovisionOnPracticeFormTest.i_type_in_Last_Name(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3164781800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I type in wrong Email Id \"ssl-27hotmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ssl-27hotmail.com",
+                  "offset": 26
+                }
+              ],
+              "location": "WrongdataprovisionOnPracticeFormTest.i_type_in_wrong_Email_Id(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3111809100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select Gender Male",
+            "match": {
+              "location": "WrongdataprovisionOnPracticeFormTest.i_select_Gender_Male()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3109651300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I type in wrong mobile number with less that ten numbers \"074244\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "074244",
+                  "offset": 58
+                }
+              ],
+              "location": "WrongdataprovisionOnPracticeFormTest.i_type_in_wrong_mobile_number_with_less_that_ten_numbers(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6154488400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click submit button",
+            "match": {
+              "location": "WrongdataprovisionOnPracticeFormTest.i_click_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6246467900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "there shall appear on the places a red highlight where the incorrect data is provided",
+            "match": {
+              "location": "WrongdataprovisionOnPracticeFormTest.there_shall_appear_on_the_places_a_red_highlight_where_the_incorrect_data_is_provided()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Wrong"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 196000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WrongdataprovisionOnPracticeFormTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 211600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DateCalculationTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 183800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 141600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VerifyAlertButtonTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 163400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VerifyHoveringOverTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 170700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ModalDialogsTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 142000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DragandDropTest.Configuration()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "Correct data provision On Practice Form",
+        "description": "",
+        "id": "verifying-features-for-demoqa.com;correct-data-provision-on-practice-form;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14049149000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "that I go to the Practice Form page",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.that_I_go_to_the_Practice_Form_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 609510700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I type in Name \"Amit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Amit",
+                  "offset": 16
+                }
+              ],
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_type_in_Name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 618563900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I typed Last Name \"Chatterjee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chatterjee",
+                  "offset": 19
+                }
+              ],
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_typed_Last_Name(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 646650100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I type in Email \"ssl-27@hotmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ssl-27@hotmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_type_in_Email(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 611405000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I select Gender as Male",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_select_Gender_as_Male()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 649435800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I type in mobile \"07424499936\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07424499936",
+                  "offset": 18
+                }
+              ],
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_type_in_mobile(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2692686800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I select from the calendar date of birth",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_select_from_the_calendar_date_of_birth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1245686200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I type in Subjects \"Testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing",
+                  "offset": 20
+                }
+              ],
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_type_in_Subjects(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 603576300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I select Hobbies Sports",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_select_Hobbies_Sports()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 599370500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I select Hobbies Reading",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_select_Hobbies_Reading()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2092682600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I upload a png file",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_upload_a_png_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2153929400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I type in Current Adress \"Hydearbad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hydearbad",
+                  "offset": 26
+                }
+              ],
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_type_in_Current_Adress(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4271934600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I select NCR as state",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_select_NCR_as_state()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4341462100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I select Noida as city",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_select_Noida_as_city()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1128595400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click Submit button",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_click_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3051108400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "there shall appear a message Thanks for submitting the form",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.there_shall_appear_a_message_Thanks_for_submitting_the_form()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3067161800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I verify on the result view that Student name matches with the provided name",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_verify_on_the_result_view_that_Student_name_matches_with_the_provided_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3056695100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I verify on the result view email matches with the provided email",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_verify_on_the_result_view_email_matches_with_the_provided_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3057465400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I verify on the result view Gender matches with the provided data",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_verify_on_the_result_view_Gender_matches_with_the_provided_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3056936300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I verify on the result view Mobile name matches with the provided number",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_verify_on_the_result_view_Mobile_name_matches_with_the_provided_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3037448800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I verify on the result view Date of birth name matches with the provided date",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_verify_on_the_result_view_Date_of_birth_name_matches_with_the_provided_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3056820200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I verify on the result view Subjects matches with the provided data",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_verify_on_the_result_view_Subjects_matches_with_the_provided_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3060750900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I verify on the result view Hobbies matches with the provided data",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_verify_on_the_result_view_Hobbies_matches_with_the_provided_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3035658500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I verify on the result view Uploaded png name matches with the provided png name",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_verify_on_the_result_view_Uploaded_png_name_matches_with_the_provided_png_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3050785700,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I verify on the result view Address matches with the provided address",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_verify_on_the_result_view_Address_matches_with_the_provided_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3036111600,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I verify on the result view State matches with the provided state name",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_verify_on_the_result_view_State_matches_with_the_provided_state_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3043415600,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I verify on the result view City matches with the provided city name",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_verify_on_the_result_view_City_matches_with_the_provided_city_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88226600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I click close",
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.i_click_close()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@Correct"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 376100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WrongdataprovisionOnPracticeFormTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1347800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DateCalculationTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 302500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 781100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VerifyAlertButtonTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4041200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VerifyHoveringOverTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 511000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ModalDialogsTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 335300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DragandDropTest.Configuration()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "To verify Alert button",
+        "description": "",
+        "id": "verifying-features-for-demoqa.com;to-verify-alert-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28962178100,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "that I am on the Alerts page",
+            "match": {
+              "location": "VerifyAlertButtonTest.that_I_am_on_the_Alerts_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2849877500,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I click On the second button",
+            "match": {
+              "location": "VerifyAlertButtonTest.i_click_On_the_second_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11021010900,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "after five seconds a message shall appear This alert appeared after five seconds",
+            "match": {
+              "location": "VerifyAlertButtonTest.after_five_seconds_a_message_shall_appear_This_alert_appeared_after_five_seconds()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2225543000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I click Ok",
+            "match": {
+              "location": "VerifyAlertButtonTest.i_click_Ok()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 53,
+            "name": "@AlertButton"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 337600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WrongdataprovisionOnPracticeFormTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 299100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DateCalculationTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 184000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 160100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VerifyAlertButtonTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 114100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VerifyHoveringOverTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 370600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ModalDialogsTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 780100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DragandDropTest.Configuration()"
+            }
+          }
+        ],
+        "line": 61,
+        "name": "To verify Hovering over",
+        "description": "",
+        "id": "verifying-features-for-demoqa.com;to-verify-hovering-over",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14536438800,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "that I am on the Tool Tips page",
+            "match": {
+              "location": "VerifyHoveringOverTest.that_I_am_on_the_Tool_Tips_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13166635400,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I hover over the Hover me to see green button",
+            "match": {
+              "location": "VerifyHoveringOverTest.i_hover_over_the_Hover_me_to_see_green_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15443610700,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I hover over the input space Hover me to see",
+            "match": {
+              "location": "VerifyHoveringOverTest.i_hover_over_the_input_space_Hover_me_to_see()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135404500,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "the hover over messages should display",
+            "match": {
+              "location": "VerifyHoveringOverTest.the_hover_over_messages_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 60,
+            "name": "@ToolTips"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 333300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WrongdataprovisionOnPracticeFormTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 387100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DateCalculationTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 219400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 272500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VerifyAlertButtonTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1580700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VerifyHoveringOverTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 271400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ModalDialogsTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 182000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DragandDropTest.Configuration()"
+            }
+          }
+        ],
+        "line": 68,
+        "name": "To verify Drag and drop",
+        "description": "",
+        "id": "verifying-features-for-demoqa.com;to-verify-drag-and-drop",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16490123000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "that I am on the Droppable page",
+            "match": {
+              "location": "DragandDropTest.that_I_am_on_the_Droppable_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 357434700,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I drag and drop the Drag me object to the Drop here area",
+            "match": {
+              "location": "DragandDropTest.i_drag_and_drop_the_Drag_me_object_to_the_Drop_here_area()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34598700,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "the Drop here area shall change into Dropped",
+            "match": {
+              "location": "DragandDropTest.the_Drop_here_area_shall_change_into_Dropped()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3244713900,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I verify that on the page that the result is showing as Dropped!",
+            "match": {
+              "location": "DragandDropTest.i_verify_that_on_the_page_that_the_result_is_showing_as_Dropped()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 67,
+            "name": "@Draganddrop"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 202200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WrongdataprovisionOnPracticeFormTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 214000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DateCalculationTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 207300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 190000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VerifyAlertButtonTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 185800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VerifyHoveringOverTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 213600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ModalDialogsTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 339000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DragandDropTest.Configuration()"
+            }
+          }
+        ],
+        "line": 75,
+        "name": "To verify Small modal",
+        "description": "",
+        "id": "verifying-features-for-demoqa.com;to-verify-small-modal",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15468638500,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "that I am on the Modal Dialogs page",
+            "match": {
+              "location": "ModalDialogsTest.that_I_am_on_the_Modal_Dialogs_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 625113200,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I click on the Small modal button",
+            "match": {
+              "location": "ModalDialogsTest.i_click_on_the_Small_modal_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 600806900,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "the Small modal appears and I press Close",
+            "match": {
+              "location": "ModalDialogsTest.the_Small_modal_appears_and_I_press_Close()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 206770600,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "the small modal should get closed",
+            "match": {
+              "location": "ModalDialogsTest.the_small_modal_should_get_closed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 74,
+            "name": "@Smallmodal"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 209800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WrongdataprovisionOnPracticeFormTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 199700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DateCalculationTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 189200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CorrectdataprovisionOnPracticeFormTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 172700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VerifyAlertButtonTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 314400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VerifyHoveringOverTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 304600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ModalDialogsTest.Configuration()"
+            }
+          },
+          {
+            "result": {
+              "duration": 308600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DragandDropTest.Configuration()"
+            }
+          }
+        ],
+        "line": 82,
+        "name": "To verify Date calculation and selection",
+        "description": "",
+        "id": "verifying-features-for-demoqa.com;to-verify-date-calculation-and-selection",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16926862800,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "that I am on the Date Picker page",
+            "match": {
+              "location": "DateCalculationTest.that_I_am_on_the_Date_Picker_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1183868400,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "calculate the date exactly a month from today date",
+            "match": {
+              "location": "DateCalculationTest.calculate_the_date_exactly_a_month_from_today_date()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 628833600,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "I select the correct year using the date picker",
+            "match": {
+              "location": "DateCalculationTest.i_select_the_correct_year_using_the_date_picker()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 670123500,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "I select the correct month using the date picker",
+            "match": {
+              "location": "DateCalculationTest.i_select_the_correct_month_using_the_date_picker()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4950714700,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "I select the correct day using the date picker",
+            "match": {
+              "location": "DateCalculationTest.i_select_the_correct_day_using_the_date_picker()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3211791200,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "the chosen date shall be shown on the Select Date section",
+            "match": {
+              "location": "DateCalculationTest.the_chosen_date_shall_be_shown_on_the_Select_Date_section()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 81,
+            "name": "@DateCalculation"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying features for demoqa.com",
+    "description": "",
+    "id": "verifying-features-for-demoqa.com",
+    "keyword": "Feature",
+    "uri": "demoqa.feature"
+  }
+]

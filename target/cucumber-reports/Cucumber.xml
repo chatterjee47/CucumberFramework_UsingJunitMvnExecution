@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="274.99537">
+<testcase classname="Verifying features for demoqa.com" name="Wrong data provision On Practice Form" time="49.023407">
+<system-out><![CDATA[Given I go to the Practice Form page........................................passed
+When I type in Name as a numeric value "796543".............................passed
+And I type in Last Name "Chatterjee"........................................passed
+And I type in wrong Email Id "ssl-27hotmail.com"............................passed
+And I select Gender Male....................................................passed
+And I type in wrong mobile number with less that ten numbers "074244".......passed
+And I click submit button...................................................passed
+Then there shall appear on the places a red highlight where the incorrect data is provided.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying features for demoqa.com" name="Correct data provision On Practice Form" time="73.014432">
+<system-out><![CDATA[Given that I go to the Practice Form page...................................passed
+When I type in Name "Amit"..................................................passed
+And I typed Last Name "Chatterjee"..........................................passed
+And I type in Email "ssl-27@hotmail.com"....................................passed
+And I select Gender as Male.................................................passed
+And I type in mobile "07424499936"..........................................passed
+And I select from the calendar date of birth................................passed
+And I type in Subjects "Testing"............................................passed
+And I select Hobbies Sports.................................................passed
+And I select Hobbies Reading................................................passed
+And I upload a png file.....................................................passed
+And I type in Current Adress "Hydearbad"....................................passed
+And I select NCR as state...................................................passed
+And I select Noida as city..................................................passed
+And I click Submit button...................................................passed
+Then there shall appear a message Thanks for submitting the form............passed
+And I verify on the result view that Student name matches with the provided name.passed
+And I verify on the result view email matches with the provided email.......passed
+And I verify on the result view Gender matches with the provided data.......passed
+And I verify on the result view Mobile name matches with the provided number.passed
+And I verify on the result view Date of birth name matches with the provided date.passed
+And I verify on the result view Subjects matches with the provided data.....passed
+And I verify on the result view Hobbies matches with the provided data......passed
+And I verify on the result view Uploaded png name matches with the provided png name.passed
+And I verify on the result view Address matches with the provided address...passed
+And I verify on the result view State matches with the provided state name..passed
+And I verify on the result view City matches with the provided city name....passed
+And I click close...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying features for demoqa.com" name="To verify Alert button" time="45.066305">
+<system-out><![CDATA[Given that I am on the Alerts page..........................................passed
+When I click On the second button...........................................passed
+Then after five seconds a message shall appear This alert appeared after five seconds.passed
+And I click Ok..............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying features for demoqa.com" name="To verify Hovering over" time="43.284335">
+<system-out><![CDATA[Given that I am on the Tool Tips page.......................................passed
+When I hover over the Hover me to see green button..........................passed
+And I hover over the input space Hover me to see............................passed
+Then the hover over messages should display.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying features for demoqa.com" name="To verify Drag and drop" time="20.130117">
+<system-out><![CDATA[Given that I am on the Droppable page.......................................passed
+When I drag and drop the Drag me object to the Drop here area...............passed
+Then the Drop here area shall change into Dropped...........................passed
+And I verify that on the page that the result is showing as Dropped!........passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying features for demoqa.com" name="To verify Small modal" time="16.902881">
+<system-out><![CDATA[Given that I am on the Modal Dialogs page...................................passed
+And I click on the Small modal button.......................................passed
+When the Small modal appears and I press Close..............................passed
+Then the small modal should get closed......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying features for demoqa.com" name="To verify Date calculation and selection" time="27.573893">
+<system-out><![CDATA[Given that I am on the Date Picker page.....................................passed
+When calculate the date exactly a month from today date.....................passed
+And I select the correct year using the date picker.........................passed
+And I select the correct month using the date picker........................passed
+And I select the correct day using the date picker..........................passed
+Then the chosen date shall be shown on the Select Date section..............passed
+]]></system-out>
+</testcase>
+</testsuite>
